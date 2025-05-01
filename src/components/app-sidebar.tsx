@@ -1,5 +1,5 @@
 "use client";
-import { Home, Inbox, LogOut, User } from "lucide-react"
+import { Home, Inbox, LogOut, User, FileText } from "lucide-react"
 import {
   Sidebar,
   SidebarContent,
@@ -30,6 +30,11 @@ const items = [
     url: "/users",
     icon: User,
   },
+  {
+    title: "Transaction",
+    url: "/transaction",
+    icon: FileText,
+  }
 ]
 
 export function AppSidebar() {

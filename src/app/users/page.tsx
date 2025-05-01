@@ -23,7 +23,7 @@ const Users = () => {
       try{
         deleteUser(id)
         toast({
-          title: "Successfully deleted item"
+          title: "Successfully deleted user"
         })
       }catch(error){
         console.log(error)
